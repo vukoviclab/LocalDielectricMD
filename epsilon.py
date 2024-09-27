@@ -9,7 +9,7 @@ kB = 1.38065E-23
 T = 310
 
 # Reads the input file containing volumes
-df1 = pd.read_csv('all-mol-vol-avg-std.csv')
+df1 = pd.read_csv('z-mol-vol.csv')
 df1.columns = df1.columns.str.strip()  # Removes spaces
 volume_water_m3 = df1['avg volume']
 
