@@ -39,7 +39,7 @@ set numMolecules [$sel num]
         continue
     }
 
-     # Obtain the molecules and volume of the selection.
+     # Obtains the molecules and volume of the selection.
         set imol [expr [ $sel num]/3 ]
         set vol [expr ($imol*18.01528)/((6.022*10**23)*0.98)]
         set ivolM3 [expr $vol/10**6]
