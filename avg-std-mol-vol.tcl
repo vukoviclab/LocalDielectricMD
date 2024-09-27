@@ -1,7 +1,7 @@
 #The following script calculates the average for the number of molecules and volumes over the defined time of trajectory
 
 # Open a single output file
-set outfile [open all-mol-vol-avg-std.csv w]
+set outfile [open z-mol-vol.csv w]
 
 puts $outfile "avg molecules, std dev molecules, avg volume, std dev volume"
 
