@@ -9,12 +9,12 @@ kB = 1.38065E-23
 T = 310
 
 # Reads the input file containing volumes
-df1 = pd.read_csv('/content/all-80-mol-vol-avg-std.csv')
+df1 = pd.read_csv('all-mol-vol-avg-std.csv')
 df1.columns = df1.columns.str.strip()  # Removes spaces
 volume_water_m3 = df1['avg volume']
 
 # Read the input file for containing dipole moment
-df3 = pd.read_csv('/content/z-se-vs-time.csv')
+df3 = pd.read_csv('z-se-vs-time.csv')
 df3.columns = df3.columns.str.strip()  # Removes spaces
 avg_se = df3['avg fluctuations']
 std_dev_se = df3['std dev fluctuations']
