@@ -20,7 +20,7 @@ Next, define the atom selection in *selText* based on the names in the input PSF
 
 <h2>Volume of selections</h2>
 
-Our code calculates the volume of a selection based on the number of molecules present within the defined selection. The `volume.tcl` script is used to compute the volume, while `avg-std-mol.tcl` calculates the time-averaged volume over a user-defined range.
+Our code calculates the volume of a selection based on the number of molecules present within the defined selection. The `volume.tcl` script is used to compute the volume, while `avg-std-mol-vol.tcl` calculates the time-averaged volume over a user-defined range.
 
 <h2>Epsilon calculation</h2>
 
