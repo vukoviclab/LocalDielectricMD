@@ -1,8 +1,8 @@
 #The following script calculates the fluctuations in dipole moment. The default units are (e-Angstrom)^2
 
 # Input:
-set psf /path-to-PSF-file/file.psf
-set dcd /path-to-DCD-file/file.dcd
+set psf z.psf
+set dcd z-tot-stride.dcd
 
 for {set i 2} {$i <= 84} {incr i} {
 
